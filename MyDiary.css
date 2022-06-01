@@ -1,0 +1,144 @@
+#body {
+    background-color: rgb(228, 169, 206);
+}
+
+.inputDiv {
+    justify-content: center;
+    display: flex;
+}
+
+.input {
+    height: 70px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    border: unset;
+    background-color: thistle;
+    color: rgb(180, 108, 171);
+    box-shadow: 1px 1px 2px #000;
+    outline: none;
+    font-size: 40px;
+}
+
+.input::placeholder {
+    color: rgb(180, 108, 171);
+    font-size: 30px;
+}
+
+.inputBtn{
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    border: unset;
+    background-color: rgb(180, 108, 171);
+    color: thistle;
+    box-shadow: 1px 1px 2px #000;
+    outline: none;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#form {
+    display: grid;
+    justify-content: center;
+}
+
+#heading {
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 2%;
+    text-shadow: 3px 3px 3px #000;
+}
+
+#textArea {
+    min-width: 800px;
+    width: max-content;
+    height: 550px;
+    border-radius: 70px;
+    border: unset;
+    background-color: thistle;
+    outline: none;
+    padding: 30px 30px;
+    text-align: start;
+    box-shadow: 10px 10px 20px #000;
+    font-size: 25px;
+    color: rgb(180, 108, 171);
+}
+
+#textArea::placeholder {
+    color: rgb(180, 108, 171);
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 30px;
+    border: unset;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: rgb(180, 108, 171);
+    color: thistle;
+    margin-left: 85%;
+    margin-top: 1em;
+    height: max-content;
+    width: max-content;
+}
+
+#section {
+    background-color: thistle;
+    min-height: 400px;
+    width: 65%;
+    font-size: 25px;
+    border: unset;
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin-left: 16%;
+    box-shadow: 10px 10px 30px #000;
+    margin-top: 1em;
+}
+
+.entryNumber {
+    height: 50px;
+    font-size: 25px;
+    padding: 10px 15px;
+    text-align: center;
+    border: unset;
+    border-radius: 50px;
+    margin: 0.2em;
+    background-color: rgb(228, 169, 206);
+    color: blueviolet;
+}
+
+.entryNumber:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: rgb(228, 169, 206);
+}
+
+.active {
+    background-color: blueviolet !important;
+    color: rgb(228, 169, 206) !important;
+}
+
+.entryHeading {
+    color: blueviolet;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#textOutput {
+    margin-top: 50px;
+    height: max-content;
+}
+
+.dlt-btn {
+    font-size: 25px;
+    border: unset;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: rgb(180, 108, 171);
+    color: thistle;
+    margin-right: 4%;
+}
